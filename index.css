@@ -1,0 +1,55 @@
+body {
+  max-width: 768px;
+  margin: 0 auto;
+  background: #181818;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 50px;
+}
+#calendar {
+  width: 100%;
+  margin-bottom: 20px;
+  /* border: 1px solid white; */
+}
+#calendar .day {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  min-height: 100px;
+  line-height: 100px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #ef3d59;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#addMeeting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#addMeeting div {
+  text-align: center;
+}
+input {
+  background: #ef3d59;
+  color: white;
+  border: 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+.isSelected {
+  color: #ef3d59;
+}
+#appointments {
+  display: none;
+}
+#calendar .withAppointments {
+  border: 1px solid #ef3d59;
+  text-decoration: underline;
+}
